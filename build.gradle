@@ -1,0 +1,11 @@
+buildscript {
+    repositories {
+        maven {
+            url uri('./repo')
+        }
+    }
+
+    dependencies {
+        classpath 'com.example.greeting:hello:1.0.0'
+    }
+}
